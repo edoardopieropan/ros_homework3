@@ -42,15 +42,18 @@ You can now see the pointcloud:
 pcl_viewer pointcloud.pcd
 ```
 #### Screenshots
-Watch the video to se the 3D pointcloud! -> [VIDEO](https://youtu.be/S3F3WERGyX8)<br>
+Watch the video to se the 3D pointcloud! -> [VIDEO](https://youtu.be/S3F3WERGyX8)<br><br>
 Some screeshots:<br>
 ![screenshot3](images/p1.png)<br>
 ![screenshot4](images/p2.png)<br>
 
 ### Euclidean Cluster Extraction
-Run `bash build_cluster.sh ` then by `./cluster_extraction pointcloud.pcd [value]` you can see new files .pcd that are the *Euclidean Cluster Extraction* of the pointcloud.<br>
-**Example:** `./cluster_extraction pointcloud.pcd 0.28` <br>
-To see those files run `pcl_viewer cloud_cluster_0.pcd cloud_cluster_1.pcd cloud_cluster_2.pcd cloud_cluster_3.pcd cloud_cluster_4.pcd`<br>
+Run `bash build_cluster.sh ` then by `./cluster_extraction pointcloud.pcd [value]` you can see new files .pcd that are the *Euclidean Cluster Extraction* of the pointcloud.<br><br>
+**Example:** `./cluster_extraction pointcloud.pcd 0.28` <br><br>
+To see those files run 
+```
+pcl_viewer cloud_cluster_0.pcd cloud_cluster_1.pcd cloud_cluster_2.pcd cloud_cluster_3.pcd cloud_cluster_4.pcd
+```
 
 #### Screenshots
 With value 0.28<br>
