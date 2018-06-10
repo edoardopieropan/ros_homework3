@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # no bag
 V1_01_easy.bag
 
@@ -41,3 +42,30 @@ ORB_SLAM/lib/
 ORB_SLAM/FrameTrajectory_KITTI_Format.txt
 ORB_SLAM/FrameTrajectory_TUM_Format.txt
 ORB_SLAM/KeyFrameTrajectory_TUM_Format.txt
+=======
+./*.txt
+*.pcd
+*.bag
+/Pangolin/
+/Cluster/
+/ORB_SLAM2/build
+/ORB_SLAM2/Examples/Monocular/mono_euroc
+/ORB_SLAM2/Examples/Monocular/mono_kitti
+/ORB_SLAM2/Examples/Monocular/mono_tum
+/ORB_SLAM2/Examples/RGB-D/rgbd_tum
+/ORB_SLAM2/Examples/ROS/ORB_SLAM2/Mono
+/ORB_SLAM2/Examples/ROS/ORB_SLAM2/MonoAR
+/ORB_SLAM2/Examples/ROS/ORB_SLAM2/RGBD
+/ORB_SLAM2/Examples/ROS/ORB_SLAM2/Stereo
+/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build
+/ORB_SLAM2/Examples/ROS/ORB_SLAM2/lib
+/ORB_SLAM2/Examples/Stereo/stereo_euroc
+/ORB_SLAM2/Examples/Stereo/stereo_kitti
+/ORB_SLAM2/Thirdparty/DBoW2/build
+/ORB_SLAM2/Thirdparty/DBoW2/lib
+/ORB_SLAM2/Thirdparty/g2o/build
+/ORB_SLAM2/Thirdparty/g2o/lib
+/ORB_SLAM2/Thirdparty/g2o/config.h
+/ORB_SLAM2/Vocabulary/ORBvoc.txt
+
+>>>>>>> 527f77a956d330f116ac379a80d3dab50f51aec5
