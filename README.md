@@ -43,7 +43,8 @@ pcl_viewer pointcloud.pcd
 A guide how i did is can be found at <https://medium.com/@j.zijlmans/orb-slam-2052515bd84c><br>
 
 #### Screenshots
-Watch the video to se the 3D pointcloud! -> [VIDEO](https://youtu.be/S3F3WERGyX8)<br><br>
+Video of the pointcloud in 3D: <br>
+[![ShortVideo](images/video.jpg)](https://youtu.be/S3F3WERGyX8 "Lab. Ciberfisico - Homework3")<br><br>
 Some screeshots:<br>
 ![screenshot3](images/p1.png)<br>
 ![screenshot4](images/p2.png)<br>
