@@ -36,11 +36,12 @@ cd ORB_SLAM2
 You can now download the [V1_01_easy.bag](http://robotics.ethz.ch/~asl-datasets/ijrr_euroc_mav_dataset/vicon_room1/V1_01_easy/V1_01_easy.bag)<br>
 Now run `bash run.sh`,three terminals will pop up. In a few seconds you will see a window waiting for an input. Select the bag terminal that is in pause and press `SPACEBAR`. Now the preovious cited window will make a pointcloud of the bag video.<br>
 This modified vestion of ORB_SLAM2 let you automatically save the pointcloud in a .pcd format at the end of the execution of the bag.<br>
-A guide how i did is can be found at <https://medium.com/@j.zijlmans/orb-slam-2052515bd84c><br>
 You can now see the pointcloud:
 ```
 pcl_viewer pointcloud.pcd
 ```
+A guide how i did is can be found at <https://medium.com/@j.zijlmans/orb-slam-2052515bd84c><br>
+
 #### Screenshots
 Watch the video to se the 3D pointcloud! -> [VIDEO](https://youtu.be/S3F3WERGyX8)<br><br>
 Some screeshots:<br>
@@ -54,7 +55,7 @@ To see those files run
 ```
 pcl_viewer cloud_cluster_0.pcd cloud_cluster_1.pcd cloud_cluster_2.pcd cloud_cluster_3.pcd cloud_cluster_4.pcd
 ```
-
+Follow this guide: <http://www.pointclouds.org/documentation/tutorials/cluster_extraction.php>
 #### Screenshots
 With value 0.28<br>
 ![screenshot1](images/c1.png)<br>
