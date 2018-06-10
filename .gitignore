@@ -1,0 +1,43 @@
+# no bag
+V1_01_easy.bag
+
+*.pcd
+
+# Ignore generated docs
+*.dox
+*.wikidoc
+
+# Catkin custom files
+CATKIN_IGNORE
+
+# ORB_SLAM2 Build files
+ORB_SLAM/CMakeLists.txt.user
+ORB_SLAM/Examples/Monocular/mono_euroc
+ORB_SLAM/Examples/Monocular/mono_kitti
+ORB_SLAM/Examples/Monocular/mono_tum
+ORB_SLAM/Examples/RGB-D/rgbd_tum
+ORB_SLAM/Examples/ROS/ORB_SLAM2/CMakeLists.txt.user
+ORB_SLAM/Examples/ROS/ORB_SLAM2/Mono
+ORB_SLAM/Examples/ROS/ORB_SLAM2/MonoAR
+ORB_SLAM/Examples/ROS/ORB_SLAM2/RGBD
+ORB_SLAM/Examples/ROS/ORB_SLAM2/Stereo
+ORB_SLAM/Examples/ROS/ORB_SLAM2/build/
+ORB_SLAM/Examples/Stereo/stereo_euroc
+ORB_SLAM/Examples/Stereo/stereo_kitti
+ORB_SLAM/KeyFrameTrajectory.txt
+ORB_SLAM/Thirdparty/DBoW2/build/
+ORB_SLAM/Thirdparty/DBoW2/lib/
+ORB_SLAM/Thirdparty/g2o/build/
+ORB_SLAM/Thirdparty/g2o/config.h
+ORB_SLAM/Thirdparty/g2o/lib/
+ORB_SLAM/Vocabulary/ORBvoc.txt
+ORB_SLAM/build/
+ORB_SLAM/*~
+ORB_SLAM/lib/
+
+*.txt
+
+# other
+ORB_SLAM/FrameTrajectory_KITTI_Format.txt
+ORB_SLAM/FrameTrajectory_TUM_Format.txt
+ORB_SLAM/KeyFrameTrajectory_TUM_Format.txt
