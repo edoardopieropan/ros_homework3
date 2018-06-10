@@ -6,6 +6,7 @@ V1_01_easy.bag
 *.wikidoc
 
 Pangolin/
+
 # Catkin custom files
 CATKIN_IGNORE
 
