@@ -4,6 +4,8 @@ V1_01_easy.bag
 
 *.pcd
 
+#no Pangolin
+Pangolin/
 # Ignore generated docs
 *.dox
 *.wikidoc
